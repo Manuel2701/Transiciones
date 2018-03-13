@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background-color: turquoise;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 56px;
+}
+nav ul li{
+    display: inline-block;   
+}
+nav ul li a{
+    padding: 30px;
+	text-decoration: none;
+	font-size: 20px;
+    color: white;
+    transition: 0s;
+    box-sizing: border-box;
+}
+a:hover{
+    background-color: darkcyan;
+    border-bottom:solid 4px midnightblue;
+}
+.action{
+    background-color: darkcyan;
+    border-bottom:solid 4px midnightblue;
+}
+
+.n1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: mediumorchid;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 1s;
+    box-sizing: border-box;
+}
+.n1:hover{
+    width: 120px;
+    height: 120px;
+    background-color: #330909;
+}
+
+
+.n2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: mediumslateblue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: width,height,background-color,border;
+    transition-duration: 1s;
+    transition-delay: 0s,1s,1s,2s;
+}
+.n2:hover{
+    width: 120px;
+    height: 120px;
+    background-color: midnightblue;
+    border: solid 4px orangered;
+}
+
+
+
+.n3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: width,height,background-color;
+    transition-duration: 1s;
+    transition-delay: 0s,0s,1s;
+}
+.n3:hover{
+    width: 170px;
+    height: 170px;
+    background-color: purple;
+}
+.n3 section{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: width, height,border-radius,background-color;
+    transition-duration: 1s;
+    transition-delay: 1.5s,1.5s,2s,2.5s;
+}
+.n3:hover section{
+    background-color: springgreen;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+.n4{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: width,height,background-color;
+    transition-duration: 1s;
+    transition-delay: 0s,1s,1.5s;
+}
+.n4:hover{
+    width: 190px;
+    height: 190px;
+    background-color: rgb(248, 103, 6);
+}
+.n4 section:first-child{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    box-sizing: border-box;
+    transition-property: margin-left,border-radius,background-color;
+    transition-duration: 1s;
+    transition-delay: 2s,3s,4s;
+}
+.n4:hover section{
+    margin-left: 40px;
+    border-radius: 50%;
+    background-color: teal;
+}
+.n4 section:last-child{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    transition-property: margin-right,border-radius,background-color;
+    transition-duration: 1s;
+    transition-delay: 2s,3s,4s;
+}
+.n4:hover section:last-child{
+    margin-right: 40px;
+    border-radius: 50%;
+    background-color: teal;
+}
+
+
+.n5{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #78909c;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: width,height,background-color;
+    transition-duration: 1s;
+    transition-delay: 0s,1s,2s;
+}
+.n5:hover{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+.n5 section:first-child{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #A51414;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition-property: margin,border-radius;
+    transition-duration: 1s;
+    transition-delay: 3s,4s;
+}
+.n5:hover section:first-child{
+    margin: 0 0 25px 25px;
+    border-radius:50%; 
+}
+.n5 section:nth-child(2){
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #A51414;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property:border-radius, background-color;
+    transition-duration: 1s;
+    transition-delay:5s,5.5s; 
+}
+.n5:hover section:nth-child(2){
+background-color: cadetblue;
+border-radius:50%; 
+}
+.n5 section:nth-child(3){
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #A51414;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    transition-property: margin,border-radius;
+    transition-duration: 1s;
+    transition-delay: 3s,4s;
+}
+.n5:hover section:nth-child(3){
+    margin: 25px 25px 0 0;
+    border-radius:50%; 
+}
+
+
+.n6{
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    box-sizing: border-box;    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: width,height,background-color,border-top,border-right,border-bottom,border-left;
+    transition-duration: 1s;
+    transition-delay: 0s,1s,2s,3s,4s,5s,6s;
+}
+.n6:hover{
+    width: 350px;
+    height: 350px;
+    background-color: #78909c;
+    border-left: solid 10px yellow;
+    border-top:solid 10px red;
+    border-right: solid 10px blue;
+    border-bottom: solid 10px purple; 
+}
+.n6 section:first-child{
+    width: 70px;
+    height: 70px;
+    background-color: darkorange;
+    box-sizing: border-box;
+    transition-property: margin,border-radius;
+    transition-duration: .5s;
+    transition-delay: 7s,7.5s;
+}
+.n6:hover section:first-child{
+    margin: 25px 0 0 25px;
+    border-radius: 50%;
+}
+.n6 section:nth-child(2){
+    position: absolute;
+    width: 70px;
+    height:70px;
+    background-color: darkmagenta;
+    top: 0;
+    right: 0;
+    
+    box-sizing: border-box;
+    transition-property: margin,border-radius;
+    transition-duration: .5s;
+    transition-delay: 8s,8.5s;
+}
+.n6:hover section:nth-child(2){
+    margin: 25px 25px 0 0;
+    border-radius: 50%;
+}
+.n6 section:nth-child(3){
+    position: absolute;
+    width: 70px;
+    height:70px;
+    background-color: darkred;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    transition-property: border-radius;
+    transition-duration: .5s;
+    transition-delay: 11s;
+}
+.n6:hover section:nth-child(3){
+    border-radius: 50%;
+}
+.n6 section:nth-child(4){
+    position: absolute;
+    width: 70px;
+    height:70px;
+    background-color: darkmagenta;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition-property: margin,border-radius;
+    transition-duration: .5s;
+    transition-delay: 9s,9.5s;
+}
+.n6:hover section:nth-child(4){
+    margin: 0 0 25px 25px ;
+    border-radius: 50%;
+}
+.n6 section:last-child{
+    position: absolute;
+    width: 70px;
+    height:70px;
+    background-color: darkorange;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    transition-property: margin,border-radius;
+    transition-duration: .5s;
+    transition-delay: 10s,10.5s;
+}
+.n6:hover section:last-child{
+    margin: 0 25px 25px 0 ;
+    border-radius: 50%;
+}
